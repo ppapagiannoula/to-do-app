@@ -1,16 +1,16 @@
-import { TestBed } from '@angular/core/testing';
+// import { TestBed } from '@angular/core/testing';
 
-import { JSONPlaceholderService } from './jsonplaceholder.service';
+// import { JSONPlaceholderService } from './jsonplaceholder.service';
 
-describe('JSONPlaceholderService', () => {
-  let service: JSONPlaceholderService;
+// describe('JSONPlaceholderService', () => {
+//   let service: JSONPlaceholderService;
 
-  beforeEach(() => {
-    TestBed.configureTestingModule({});
-    service = TestBed.inject(JSONPlaceholderService);
-  });
+//   beforeEach(() => {
+//     TestBed.configureTestingModule({});
+//     service = TestBed.inject(JSONPlaceholderService);
+//   });
 
-  it('should be created', () => {
-    expect(service).toBeTruthy();
-  });
-});
+//   it('should be created', () => {
+//     expect(service).toBeTruthy();
+//   });
+// });

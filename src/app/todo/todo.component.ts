@@ -13,7 +13,7 @@ export class TodoComponent implements OnInit {
     // searchText='';
     // text=`somedummy text here` for the search filter (not done)
 
-  myStringifiedJson: any;
+  // myStringifiedJson: any;
   todoForm!: FormGroup;
   tasks: ITask[] = [];
   inprogress: ITask[] = [];

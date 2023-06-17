@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import {JSONPlaceholderService} from '../services/jsonplaceholder.service'
+// import {JSONPlaceholderService} from '../services/jsonplaceholder.service'
 
 
 @Component({
@@ -9,15 +9,15 @@ import {JSONPlaceholderService} from '../services/jsonplaceholder.service'
 })
 export class AppComponent {
   title = 'my-app';
-  constructor(private JSONPlaceholder: JSONPlaceholderService) {
-    this.task = new Array<any>()
-   }
+  // constructor(private JSONPlaceholder: JSONPlaceholderService) {
+  //   this.task = new Array<any>()
+  //  }
 
-  getDataFromAPI() {
-    this.JSONPlaceholder.getData().subscribe((task) => {
-      console.log(task)
-      this.task = task
-    })
-  }
+//   getDataFromAPI() {
+//     this.JSONPlaceholder.getData().subscribe((task) => {
+//       console.log(task)
+//       this.task = task
+//     })
+//   }
 
 }
